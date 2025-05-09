@@ -6,39 +6,37 @@ This application demonstrates a simple implementation of CAPTCHA validation usin
 Features:<br>
 1)Clean, modern UI with responsive design<br>
 2)Server-side session management for enhanced security<br>
-3)Customizable CAPTCHA settings (length, dimensions)
-4)Easy to integrate into existing Flask application
+3)Customizable CAPTCHA settings (length, dimensions)<br>
+4)Easy to integrate into existing Flask application<br>
 
-The application follows this workflow:
-
-Configuration: Sets up Flask app, configures CAPTCHA parameters and session management
+The application follows this workflow:<br>
+![codetoflow](https://github.com/user-attachments/assets/9e4bf516-35c6-4710-aee3-2fb714e7b92a)<br>
+Configuration: Sets up Flask app, configures CAPTCHA parameters and session management<br>
 Request Handling:
-
-GET requests: Generates and displays a new CAPTCHA challenge
-POST requests: Validates submitted CAPTCHA against the stored value
-
-
+<br>
+GET requests: Generates and displays a new CAPTCHA challenge<br>
+POST requests: Validates submitted CAPTCHA against the stored value<br>
+<br>
 Response: Renders the form with appropriate feedback and a new CAPTCHA
-
+<br>
 Requirements
-
+<br>
 Python 3.6+
 Flask
 Flask-Session
 Flask-Session-CAPTCHA
-
+<br>
 Installation
+<br>
+Clone this repository:<br>
+git clone https://github.com/yourusername/flask-captcha-auth.git<br>
+cd flask-captcha-auth<br>
+<br>
+Create and activate a virtual environment:<br>
+python -m venv venv<br>
+source venv/bin/activate  # On Windows: venv\Scripts\activate<br>
 
-Clone this repository:
-git clone https://github.com/yourusername/flask-captcha-auth.git
-cd flask-captcha-auth
-
-Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-Install the required packages:
-pip install -r requirements.txt
+Install the required packages:<br>
+pip install -r requirements.txt<br>
 
 
-![codetoflow](https://github.com/user-attachments/assets/9e4bf516-35c6-4710-aee3-2fb714e7b92a)
